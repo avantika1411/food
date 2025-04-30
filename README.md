@@ -1,6 +1,6 @@
 # Food Delivery App
 
-Welcome to the **Food Delivery App**! This repository contains a web application built using React, Vite, and Express, facilitating a comprehensive frontend-backend solution for food delivery services.
+Welcome to **Feasto**, a full-stack Food Delivery web application built using React, Vite, and Express, facilitating a comprehensive frontend-backend solution for food delivery services.
 
 ---
 
@@ -28,7 +28,7 @@ The Food Delivery App is a modern web application designed to provide a seamless
 
 - **Frontend:** React components styled with CSS.
 - **Backend:** RESTful API built with Express.js.
-- **Authentication:** User login and secure authentication system.
+- **Authentication:** Secure login with JWT.
 - **Database:** MongoDB for data storage.
 
 ---
@@ -38,8 +38,8 @@ The Food Delivery App is a modern web application designed to provide a seamless
 Follow these steps to set up the project locally:
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- [Git](https://git-scm.com/)
+- [Node.js] (v16 or higher)
+- [Git] 
 - MongoDB database instance
 
 ### Steps
