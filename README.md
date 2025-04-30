@@ -127,7 +127,10 @@ The repository is divided into three main directories:
 ## Screenshots/Demo
 
 ### Homepage
-![Homepage Screenshot](https://via.placeholder.com/600x400)
+![Homepage Screenshot]([https://via.placeholder.com/600x400](https://github.com/avantika1411/food/blob/acea5585fce2950a53943c0071353b13087ccb25/homepage.png?raw=true))
+
+### Loginpage
+![Loginpage Screenshot]()
 
 ### Admin Panel
 ![Admin Panel Screenshot](https://via.placeholder.com/600x400)
