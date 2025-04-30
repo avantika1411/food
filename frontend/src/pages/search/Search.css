@@ -1,0 +1,92 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh; /* Fullscreen height */
+    width: 100%;        /* Fullscreen width */
+    background-color: #f9f9f9; /* Light background for better visibility */
+    padding: 20px;      /* Add some padding */
+    box-sizing: border-box; /* Ensure padding doesn't break layout */
+}
+
+h1 {
+    font-size: 2.5rem; /* Increase font size for heading */
+    margin-bottom: 20px;
+    color: #333; /* Darker text for better contrast */
+}
+
+.search-input {
+    padding: 15px; /* Increase padding for better usability */
+    width: 100%;    /* Input field full width */
+    max-width: 600px; /* Limit max width for larger screens */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.2rem; /* Larger text in input field */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.search-results {
+    width: 100%;    /* Match input width */
+    max-width: 600px; /* Limit max width */
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.search-item {
+    list-style: none;
+    padding: 15px; /* Increase padding for items */
+    margin-bottom: 10px; /* Space between items */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    background: #fff; /* White background for contrast */
+    text-align: center;
+    font-size: 1.2rem; /* Larger text for items */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.search-item:hover {
+    background-color: #f0f0f0; /* Light gray hover effect */
+}
+
+.no-results {
+    text-align: center;
+    font-size: 1.5rem; /* Larger text for "No items found" message */
+    color: #999; /* Light gray text */
+}
+/* Styling for the list of categories */
+.search-results .list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0 auto; /* Center the list */
+    max-width: 800px; /* Limit the width of the list */
+    display: grid; /* Use grid layout for categories */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between items */
+}
+
+/* Styling for individual category items */
+.category-item {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    transition: all 0.3s ease; /* Smooth transitions */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+}
+
+/* Highlight effect on hover for category items */
+.category-item:hover {
+    background-color: #ffefd5; /* Light yellow highlight */
+    border-color: #f39c12; /* Orange border on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
