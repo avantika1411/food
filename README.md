@@ -133,7 +133,7 @@ The repository is divided into three main directories:
 ![Loginpage Screenshot](https://raw.githubusercontent.com/avantika1411/food/35fc33634ea9a1060ed1451e512ed2992087c0bd/loginpage.png)
 
 ### Admin Panel
-![Admin Panel Screenshot]([https://via.placeholder.com/600x400](https://raw.githubusercontent.com/avantika1411/food/5ee6d21258a0567184f60be4285a36b1cc8ec6e7/adminpanel.png))
+![Admin Panel Screenshot](https://raw.githubusercontent.com/avantika1411/food/5ee6d21258a0567184f60be4285a36b1cc8ec6e7/adminpanel.png)
 
 ---
 
